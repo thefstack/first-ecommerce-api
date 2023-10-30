@@ -8,7 +8,7 @@ const generateRandomString = require("./generateRandomString");
     secure: true,
     auth: {
       user: 'phantomop18@gmail.com',
-      pass: 'wuhk oqqf yich bvis'
+      pass: '${process.env.PASS}'
     }
   });
 
